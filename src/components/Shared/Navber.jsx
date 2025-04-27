@@ -16,29 +16,31 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0 text-xl font-bold text-indigo-600">
-            BasaFinder
+            <Link href="./" className="hover:text-indigo-600">
+              MySite
+            </Link>
           </div>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-6 text-gray-700 font-medium">
-            <a href="./" className="hover:text-indigo-600">
-              Home
-            </a>
             <Link href="./about" className="hover:text-indigo-600">
               About
             </Link>
-            <a href="./service" className="hover:text-indigo-600">
+            <Link href="./service" className="hover:text-indigo-600">
               Services
-            </a>
-            <a href="./contact" className="hover:text-indigo-600">
+            </Link>
+            <Link href="./contact" className="hover:text-indigo-600">
               Contact
-            </a>
-            <a href="./login" className="hover:text-indigo-600">
+            </Link>
+            <Link href="./dashboard" className="block hover:text-indigo-600">
+              Dashboard
+            </Link>
+            <Link href="./login" className="hover:text-indigo-600">
               Login
-            </a>
-            <a href="./register" className="hover:text-indigo-600">
+            </Link>
+            <Link href="./register" className="hover:text-indigo-600">
               Register
-            </a>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -56,18 +58,21 @@ const Navbar = () => {
       {/* Mobile Dropdown Menu */}
       {isOpen && (
         <div className="md:hidden px-4 pb-4 space-y-2 text-gray-700 font-medium">
-          <a href="#" className="block hover:text-indigo-600">
-            Home
-          </a>
-          <a href="#" className="block hover:text-indigo-600">
+          <Link href="#" className="block hover:text-indigo-600">
+            MySite
+          </Link>
+          <Link href="#" className="block hover:text-indigo-600">
             About
-          </a>
-          <a href="#" className="block hover:text-indigo-600">
+          </Link>
+          <Link href="#" className="block hover:text-indigo-600">
             Services
-          </a>
-          <a href="#" className="block hover:text-indigo-600">
+          </Link>
+          <Link href="#" className="block hover:text-indigo-600">
             Contact
-          </a>
+          </Link>
+          <Link href="#" className="block hover:text-indigo-600">
+            Dashboard
+          </Link>
         </div>
       )}
     </nav>
