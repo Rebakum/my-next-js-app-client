@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Ultrabook",
+      "Category": "Laptop",
+      "brand": "TecPro",
+      "price": 12000,
+      "image": "https://helios-i.mashable.com/imagery/articles/05djrP5PjtVB7CcMtvrTOAP/hero-image.fill.size_1248x702.v1723100793.jpg"
+    },
+    {
+      "id": 2,
+      "productName": "Smartphone X",
+      "Category": "Phone",
+      "brand": "Mobitech",
+      "price": 800,
+      "image": "https://images.unsplash.com/photo-1529653762956-b0a27278529c?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 3,
+      "productName": "Gaming Laptop",
+      "Category": "Laptop",
+      "brand": "GameStar",
+      "price": 20000,
+      "image": "https://media.istockphoto.com/id/185223710/photo/laptop-floating-angled-open.jpg?s=1024x1024&w=is&k=20&c=IP3M_pO8hF2mSyA3MMzBIHWCpOv00-pi5KDSFuq8t74="
+    },
+    {
+      "id": 4,
+      "productName": "Wireless Headphones",
+      "Category": "Accessories",
+      "brand": "SoundMagic",
+      "price": 300,
+      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 5,
+      "productName": "Smartwatch Pro",
+      "Category": "Wearables",
+      "brand": "TimeTech",
+      "price": 450,
+      "image": "https://danytech.com.pk/cdn/shop/files/audionic-the-sound-master-black-dany-amoled-pulse-pro-smart-watch-36385408188572copy.png?v=1731418907"
+    },
+    {
+      "id": 6,
+      "productName": "4K Monitor",
+      "Category": "Monitor",
+      "brand": "VisionX",
+      "price": 1500,
+      "image": "https://cdn.thewirecutter.com/wp-content/media/2024/07/27-inch-monitor-2048px-233796-2x1-1.jpg?width=2048&quality=75&crop=2:1&auto=webp"
+    }
+  ]
+}

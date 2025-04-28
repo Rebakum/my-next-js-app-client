@@ -1,5 +1,8 @@
-"use client";
 import style from "./contact.module.css";
+export const metadata = {
+  title: "Contact",
+  description: "Contact Page",
+};
 
 const ContactPage = () => {
   return (
